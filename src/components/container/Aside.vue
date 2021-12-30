@@ -15,6 +15,7 @@ export default{
 }
 </script>
 <script setup lang="ts">
+import { defineProps } from 'vue'
 type PropValues = {
   width:string
 }

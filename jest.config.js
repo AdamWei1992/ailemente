@@ -11,4 +11,7 @@ module.exports = {
   testMatch: ['**/?(*.)+(spec).[jt]s?(x)'],
   collectCoverage: true,
   coverageReporters: ["json", "html"],
+  moduleNameMapper: {
+    "^@/(.*)$": "<rootDir>/src/$1"
+  }
 }
